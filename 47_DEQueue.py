@@ -1,3 +1,4 @@
+# There are two types of DEQueues - 1) input restricted DEQueue - where you cant enqueue from front , 2) Output restricted where you cant dequeue from the rear.
 
 
 class DEQueue():
