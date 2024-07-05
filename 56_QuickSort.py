@@ -2,7 +2,9 @@
 # Quick Sort -
 '''
 Worst Case Complexity - O(n^2)
-Best Case Complexity - O(nlogn)
+Best/Average Case Complexity - O(nlogn)
+
+QuickSort is Not Stable and Not Adaptive
 '''
 
 def partition(arr, low, high):
@@ -26,7 +28,7 @@ def quickSort(arr, low, high):
         quickSort(arr, pi+1, high) # sort the right part
 
 
-nums = [5, 2, 9, 1, 5, 6]
+nums = [5, 2, 9, 1, 5, 6,2]
 
 print(nums) # before sorting
 
